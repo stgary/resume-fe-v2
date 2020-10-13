@@ -12,8 +12,6 @@ html,body {
   font-size: 62.5%; 
   
   #root {
-    width: 100%;
-    height: 100%;
 
     .app {
       width: 100%;
@@ -23,7 +21,7 @@ html,body {
       background-color: $bg-color;
 
       .bg-center {
-        width: 70%;
+        width: 60%;
         background-image: url('../img/background009.jpg');
         background-size: cover;
         // box-shadow: $shadow;

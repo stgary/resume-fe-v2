@@ -11,18 +11,18 @@
     font-family: $font-primary;
 
     .header-name {
-      font-size: 3rem;
+      font-size: 3.5rem;
       margin-bottom: -10px;
     }
 
     .header-title {
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
   }
   
   .intro-container {
     display: flex;
-    height: 47vh;
+    height: 39vh;
     margin-top: 18%;
     background: linear-gradient(to right, $color-secondary, $color-primary);
 
@@ -32,17 +32,17 @@
       margin-left: 5%;
 
       .profile-pic {
-        width: 20vw;
+        width: 18vw;
         margin-left: 10%;
       }
     }
 
     .intro-right {
-      margin: 0% 8% 0% 6%;
+      margin: 0% 5% 0% 5%;
       color: #fff;
 
       .japanese-text {
-        font-size: 3rem;
+        font-size: 3.5rem;
         font-family: $font-primary;
         font-weight: bold;
         letter-spacing: 0.5rem;
@@ -51,23 +51,23 @@
       }
 
       .translation-text {
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-family: $font-primary;
       }
 
       .statement {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         font-family: $font-secondary;
       }
 
       .social-media-icons {
         display: flex;
         justify-content: space-between;
-        margin: 0% 2% 0% 2%;
+        margin: 0% 5% 0% 1%;
 
         .cv-icon{
           color: #fff;
-          font-size: 2rem;
+          font-size: 2.25rem;
         }
       }
     }
