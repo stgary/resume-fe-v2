@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Merriweather&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Merriweather&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Merriweather&display=swap");
 html, body {
   background-position: center;
   background-repeat: no-repeat;
@@ -86,8 +88,8 @@ table {
   border-spacing: 0;
 }
 
-.intro .name-container {
-  margin: 10px;
+.header {
+  margin: 0% 0% 20% 0%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -102,21 +104,79 @@ table {
   font-family: "Lora", serif;
 }
 
-.intro .name-container .header-name {
+.header .heading {
   font-size: 3.5rem;
-  margin-bottom: -10px;
+  margin: 0;
 }
 
-.intro .name-container .header-title {
+.header .sub-heading {
+  font-size: 1.5rem;
+}
+
+.edu {
+  color: #fff;
+  margin-top: 5%;
+}
+
+.edu .edu-header {
+  font-family: "Lora", serif;
   font-size: 2rem;
+  margin-left: 5%;
+}
+
+.edu .edu-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2% 0% 2% 0%;
+  background: -webkit-gradient(linear, left top, right top, from(#424242), to(#272727));
+  background: linear-gradient(to right, #424242, #272727);
+}
+
+.edu .edu-container .edu-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.edu .edu-container .edu-item .sm {
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.edu .edu-container .edu-item .lg {
+  font-family: "Lora", serif;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.edu .edu-container .edu-item .md {
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  margin: 0;
 }
 
 .intro .intro-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 39vh;
-  margin-top: 18%;
+  height: 37vh;
   background: -webkit-gradient(linear, left top, right top, from(#424242), to(#272727));
   background: linear-gradient(to right, #424242, #272727);
 }
@@ -131,7 +191,7 @@ table {
   margin-left: 5%;
 }
 
-.intro .intro-container .intro-left .profile-pic {
+.intro .intro-container .intro-left .intro-img {
   width: 18vw;
   margin-left: 10%;
 }
@@ -141,8 +201,8 @@ table {
   color: #fff;
 }
 
-.intro .intro-container .intro-right .japanese-text {
-  font-size: 3.5rem;
+.intro .intro-container .intro-right .intro-heading {
+  font-size: 3rem;
   font-family: "Lora", serif;
   font-weight: bold;
   letter-spacing: 0.5rem;
@@ -150,93 +210,49 @@ table {
   margin-bottom: -20px;
 }
 
-.intro .intro-container .intro-right .translation-text {
-  font-size: 2.5rem;
+.intro .intro-container .intro-right .intro-sub-heading {
+  font-size: 2rem;
   font-family: "Lora", serif;
 }
 
-.intro .intro-container .intro-right .statement {
-  font-size: 1.5rem;
+.intro .intro-container .intro-right .intro-para {
+  font-size: 1.25rem;
   font-family: "Merriweather", serif;
 }
 
-.intro .intro-container .intro-right .social-media-icons {
+.skills {
+  color: #fff;
+  margin-top: 5%;
+}
+
+.skills .skills-header {
+  font-family: "Lora", serif;
+  font-size: 2rem;
+  margin: 2% 0% 0% 5%;
+}
+
+.skills .skills-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 0% 5% 0% 1%;
-}
-
-.intro .intro-container .intro-right .social-media-icons .cv-icon {
-  color: #fff;
-  font-size: 2.25rem;
-}
-
-.tools {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: #fff;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 5%;
+  padding: 2% 0% 2% 0%;
   background: -webkit-gradient(linear, left top, right top, from(#424242), to(#272727));
   background: linear-gradient(to right, #424242, #272727);
 }
 
-.tools .title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 2rem;
-  font-family: "Lora", serif;
-}
-
-.tools .title p {
-  margin: 0;
-}
-
-.tools .tool-img {
-  width: 10%;
-}
-
-.tools .tool-img .img {
-  width: 100%;
-}
-
-.tools .nep {
-  font-size: 1.5rem;
-  font-family: "Lora", serif;
-}
-
-.tools .nep p {
-  margin: 0;
-}
-
-.tools .rrl {
+.skills .skills-container .skills-item {
   font-size: 1.5em;
   font-family: "Lora", serif;
 }
 
-.tools .rrl p {
-  margin: 0;
+.skills .skills-container .skills-item p {
+  margin-bottom: -2%;
 }
 
 /*!

@@ -3,11 +3,12 @@
 @import './normalize/globals';
 @import './normalize/reset';
 
+@import './components/heading';
 @import './components/edu';
 @import './components/form';
 @import './components/intro';
 @import './components/solo';
-@import './components/tools';
+@import './components/skills';
 @import './components/work';
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
