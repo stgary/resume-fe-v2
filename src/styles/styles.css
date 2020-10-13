@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Merriweather&display=swap");
 html, body {
   background-position: center;
   background-repeat: no-repeat;
@@ -24,6 +27,7 @@ html #root .app, body #root .app {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #2a2a2a;
 }
 
 html #root .app .bg-center, body #root .app .bg-center {
@@ -86,7 +90,8 @@ table {
   border-spacing: 0;
 }
 
-.intro .social-media-icons {
+.intro .name-container {
+  margin: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,14 +99,84 @@ table {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 2% 3%;
-  width: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-family: "Lora", serif;
 }
 
-.intro .social-media-icons .cv-icon {
-  font-size: 2rem;
+.intro .name-container .header-name {
+  font-size: 3rem;
+  margin-bottom: -10px;
+}
+
+.intro .name-container .header-title {
+  font-size: 1.5rem;
+}
+
+.intro .intro-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 47vh;
+  margin-top: 18%;
+  background: -webkit-gradient(linear, left top, right top, from(#424242), to(#272727));
+  background: linear-gradient(to right, #424242, #272727);
+}
+
+.intro .intro-container .intro-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-left: 5%;
+}
+
+.intro .intro-container .intro-left .profile-pic {
+  width: 20vw;
+  margin-left: 10%;
+}
+
+.intro .intro-container .intro-right {
+  margin: 0% 8% 0% 6%;
   color: #fff;
-  margin-bottom: 50%;
+}
+
+.intro .intro-container .intro-right .japanese-text {
+  font-size: 3rem;
+  font-family: "Lora", serif;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+  margin-left: -8px;
+  margin-bottom: -20px;
+}
+
+.intro .intro-container .intro-right .translation-text {
+  font-size: 2rem;
+  font-family: "Lora", serif;
+}
+
+.intro .intro-container .intro-right .statement {
+  font-size: 1.25rem;
+  font-family: "Merriweather", serif;
+}
+
+.intro .intro-container .intro-right .social-media-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0% 2% 0% 2%;
+}
+
+.intro .intro-container .intro-right .social-media-icons .cv-icon {
+  color: #fff;
+  font-size: 2rem;
 }
 
 /*!
