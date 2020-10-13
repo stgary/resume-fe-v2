@@ -1,7 +1,6 @@
 import React from 'react'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTools } from '@fortawesome/free-solid-svg-icons';
+import Tool from '../img/tools.png';
 
 export default function Tools() {
   return (
@@ -11,8 +10,8 @@ export default function Tools() {
         <p>of</p>
         <p>Creation</p>
       </div>
-      <div className='tool-icon'>
-        <FontAwesomeIcon className='icon' icon={faTools} />
+      <div className='tool-img'>
+        <img className='img' src={Tool} alt='wrench and screwdriver crossed' />
       </div>
       <div className='nep'>
         <p>Node.js</p>
