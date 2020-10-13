@@ -1,13 +1,18 @@
 import React from 'react';
+
 import Intro from './Intro';
-import Tools from './Tools';
+import Skills from './Skills';
+import Edu from './Edu';
+import Heading from './Heading';
 
 export default function App() {
   return (
     <div className='app'>
       <div className='bg-center'>
+        <Heading />
         <Intro />
-        <Tools />
+        <Skills />
+        <Edu />
       </div>
     </div>
   );
