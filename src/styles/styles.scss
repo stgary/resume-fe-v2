@@ -1,11 +1,13 @@
-@import './vars';
+@import 'variables';
 
 @import './normalize/globals';
 @import './normalize/reset';
 
-@import './components/edu.scss';
-@import './components/form.scss';
-@import './components/intro.scss';
-@import './components/solo.scss';
-@import './components/tools.scss';
-@import './components/work.scss';
+@import './components/edu';
+@import './components/form';
+@import './components/intro';
+@import './components/solo';
+@import './components/tools';
+@import './components/work';
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
